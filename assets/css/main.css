@@ -1,0 +1,205 @@
+
+.header {
+    background-color: #FC6E51;
+    height: 56px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+
+.header_left,
+.header_right {
+    height: 56px;
+    display: flex;
+    align-items: center; 
+}
+
+.header_left-item {
+    padding: 0 12px 0 12px;
+    align-items: center;
+    height: 100%;
+    display:flex;
+}
+.header_left-icon {
+    padding-right: 4px;
+
+}
+
+.header_right-item {
+    padding: 0 12px 0 12px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    position: relative;
+
+}
+.header_left-item:hover,
+.header_left-item:hover .header_left-text,
+.header_right-item:hover .header_right-text,
+.header_right-item:hover {
+    color: white;
+    cursor: pointer;
+}
+.header_left-item:hover a,
+.header_right-item:hover a {
+    cursor: pointer;
+}
+
+.header_right-icon {
+    padding-right: 10px;
+
+}
+
+
+
+
+.content__img {
+    width: 100%;
+}
+
+.course {
+    margin-top: 100px !important;
+    max-width:  600px !important;
+}
+.course__item{
+    width: 100%;
+    padding-left: 12px;
+}
+.course__header {
+
+}
+
+.course__price{
+    font-size: 20px;
+    color: white;
+   
+    
+}
+
+.header--text {
+    text-align: center;
+}
+.content {
+    position: relative;
+    text-align: center;
+}
+.course__img {
+    width: 90%;
+
+}
+.content-text {
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+.buy {
+    margin-top: 24px;
+    text-align: center;
+    
+}
+
+.buy__btn {
+    padding:  12px 48px;
+    border: none;
+    background-color: rgb(81, 184, 81);
+    color: #fff;
+    cursor: pointer;
+    font-size:  20px;
+    border-radius: 8px;
+}
+
+.buy__btn:hover {
+    opacity: 0.8;
+}
+.user__list {
+    display: none;
+    top: 42px;
+    padding: 0 12px;
+    position: absolute;
+    right:  0;
+    width: 120px;
+    list-style-type: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    border-radius:4px;
+    z-index:  998;
+    background-color: white;
+    
+}
+.user__list::after {
+    content: '';
+    height: 12px;
+    background-color: transparent;
+    width: 100%;
+    left: 0;
+    top: -12px;
+    position: absolute;
+
+}
+.header_right-item:hover .user__list {
+    display:block; 
+    color: black !important;
+}
+.user__item {
+    padding: 12px 0;
+}
+.user__item:hover {
+    color: red;
+}
+
+
+.history{
+    margin-top: 72px !important;
+    /* max-width:  1000px !important; */
+}
+.history__list{
+    border: 1px solid black;
+    border-radius: 4px;
+    padding:  4px ;
+
+}
+.history__item {
+    display: block;
+    padding: 12px 8px;
+    
+}
+.history__item-white {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.history__item-pink {
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.hisory__text{
+    font-size: 20px;
+}
+.time__buy{
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.footer {
+    
+    margin-top: 32px;
+
+}
+
+
+.contact__item {
+    display: flex;
+    padding-top: 8px;
+}
+
+.contact__text {
+    margin-left: 12px;
+}
